@@ -1,0 +1,150 @@
+.container {
+    margin-bottom: 100px;
+}
+
+.orange-bg {
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    padding: 40px 40px;
+}
+
+.price {
+    color: #FF136F;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.buy-now-button {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.cat1,
+.cat2,
+.cat3 {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.cat1 {
+    /* background-color: #ffa500; */
+    background-image: linear-gradient(to right, #ffa500 0%, #eac060 100%);
+
+}
+
+.cat2 {
+
+    background-image: linear-gradient(to right, #da70d6 0%, #eb78e7b8 100%);
+
+}
+
+.cat3 {
+    background-color: #0000ff;
+    background-image: linear-gradient(to left, #0000ff 0%, #6f6bacb8 100%);
+
+
+}
+
+.categories h1 {
+    color: white;
+}
+
+.categories img {
+    width: 100px;
+}
+
+.card-design {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    padding: 10px;
+    transform: translateY(8px);
+}
+.card-design:hover{
+    /* box-shadow: none; */
+    transform: translateY(20px);
+}
+
+.card-footer {
+    background-color: white;
+}
+
+.contact {
+    background-color: #fceae8;
+    height: 250px;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+
+.img-hidden{
+    overflow: hidden;
+    osition: relative;
+    transition: all 1s ease;
+}
+.shoes input {
+    position: absolute;
+    height: 45px;
+    width: 110px;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+    top: 22%;
+    left: 35%;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.shoes .card:hover input{
+    opacity: 1;
+    transition: 1s;
+   
+}
+.shoes .card:hover img{
+    transition: 1s;
+   
+    transform: scale(1.2);
+}
+
+.bags input {
+    position: absolute;
+    height: 45px;
+    width: 110px;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+    top: 30%;
+    left: 35%;
+    opacity: 0;
+    transition: all 1s ease;
+}
+.shoes .card img{
+    
+    transition: all 1s ease;
+}
+.bags .card img{
+    
+    transition: all 1s ease;
+}
+.bags .card:hover input{
+    opacity: 1;
+    transition: all 1s ease;
+}
+.bags .card:hover img{
+    transition: 1s;
+   
+    transform: scale(1.2);
+}
+
